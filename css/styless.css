@@ -1,0 +1,127 @@
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+/*********** HEADER CSS *******************/
+.icon_pro_bell {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3px 0px 0px 20px;
+}.navbar_header_fix
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #333;
+    color: #fff;
+}.icon {
+    border: 1px solid;
+    left: 10px;
+    font-size: 30px;
+    position: absolute;
+}.menu_icon{
+    color:#FB5607;
+    background-color: transparent;
+    padding: 2px 0px;
+    font-size: 25px;
+
+}
+.nav-tabs.nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    border-color: #FB5607 #dee2e6 #fff;
+    
+}a.nav-link.active.mg_left{
+    margin-left: 15px;
+    border-radius: 50%;
+    border-color:#fb5607;
+    height: 39px;
+    width: 47px;
+}
+.nav-link
+{
+    color: black !important;
+    font-weight:bolder;
+}
+.nav-tabs .dropdown-menu {
+    margin-top: 4px;
+    border-radius: 10%;
+    width: 10%;
+   opacity: 0.5;
+}
+.nav-tabs .dropdown-menu:hover
+{
+    opacity: 1;
+}.navbar-toggler {
+    padding: 0rem;
+    font-size: 24px;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
+}ul.notification_bar.show{
+    width: 242px;
+    height: max-content;
+    border-color: #fb5607;
+    border-radius: 15px;
+    padding: 15px;
+}.notification_content{height: 275px;overflow-y: auto;}
+.btn_showall,.btn_showall:hover,.btn_showall::after{border: none;color: #fb5607;background-color: transparent;font-weight: bold;}
+
+
+/*********** FOOTER CSS *******************/
+footer.footer_dark {
+    background-color: black;
+    color: white;    
+}
+
+/*********************** pro report *******************************/
+
+.conatiner.imp_pro_container {margin: 8% 1.5% 0% 1.5%;} .custom-file-upload {
+    padding-bottom:9px;
+    cursor: pointer;
+    background-color: #c95c1c;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 38px;
+    TEXT-TRANSFORM: uppercase;
+    transition: background-color 0.3s ease;
+    width: 31%;
+    margin: 2% 28.5%;
+    position: relative;
+}.custom-file-upload:hover {background-color: #e67e22; color:white;}.custom-file-upload i.fa {position: absolute; top: 10px; right: 20px; cursor: pointer;}button#upload-button { margin-bottom: 18px;margin-top: 10px;border:3px solid !important;border-color:#fff #fb5607 #fff #fb5607;}button#upload-button:hover,.frst-form-btn:hover,.addButton:hover,.client_pro_entryform:hover{background-color:#fb5607;color:whiteq;} .close-icon {margin-left:98%; cursor: pointer; z-index: 3; right: 222px; font-size: 30px;} .btn{color:white; background-color:#fb5607;border:none !important;} .form_one_second button#addButton_blur {position: relative; left: 50%; top: -46%; font-size:18px; font-weight:700; transform: translate(-50%, -50%); z-index: 99;} #file-upload {display: none;}.form_one {margin: 2% 2%; border: 3px solid; border-color: #FB5607 #fff #fff #fb5607; height:75px; padding:1.5%;}.form_one_end{margin: 2% 2%; border: 3px solid; border-color: #fff0 #fb5607 #fb5607 #fff; height:75px;}
+
+.form_one_for_client{box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; text-align: left;padding: 16px 52px; border-radius: 2px 45px 45px 2px; height:400px;}
+.form_one_for_client1{box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; text-align: left;padding: 16px 52px;     border-radius: 45px 2px 2px 45px; height:400px;margin-left:-1%;}
+
+.frst-form-btn{margin-left:34%;margin-top:15px;font-weight:700;}.second_cl-form{padding: 16% 0% 0% 0%; position: relative; display: flex; flex-direction: column;} .form-contain-label{margin:10px 0px; font-weight:700;} .contain-form{position: relative;border:3px solid; border-color:#fb5607 #fb5607 #fff #fff; border-radius:10px 45px 10px 45px;margin:2%;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; text-align: left; padding: 20px 10px; height: max-content;} .client_pro_entryform{margin:25px 15px;background-color:#fb5607;color:white;font-weight:700;border:none;padding:5px 25px} #manual_form_details {display: none;} #manual_form_toggle {width: 100%; height: 38px; border: none; margin: 3% 0% 0% 0%; font-size: 21px; font-weight: 600; color: #fb5607; background-color: transparent; text-decoration: underline;}.authorization {box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;height:75%}.unauthorization {padding-top:3%; text-align:center; height: 150px;}.unauth{color:red; text-align:center; padding-top:3%;}.authorization_footer_if{margin-top:15%; margin-left:1%}
+
+
+

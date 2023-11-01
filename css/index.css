@@ -1,0 +1,335 @@
+
+
+/* login_page */
+.index_login {
+    background-image: url('../assets/images/ind_background.png');
+    background-size: 100%;
+    background-repeat: round;
+    background-attachment: fixed;
+    max-width: 100%;
+    max-height: 100%;
+    color: white;
+    
+}
+
+.index_container {
+    max-width: 650px;
+    background: rgba(117, 110, 110, 0.05);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    margin-top: 30px;
+    padding: 35px;
+    max-height: max-content;
+    min-height: 620px;
+    font-size: 13px;
+}
+
+.form-control, #loginPassword {
+    width: 541px;
+    height: 40px;
+}
+
+::placeholder {
+    color: black;
+}
+
+.password-input-container {
+    position: relative;
+}
+
+#loginPassword {
+    padding-right: 30px; /* Add space on the right for the icon */
+}
+
+.icon_eye {
+    position: absolute;
+    top: 50%;
+    right: 5px; /* Adjust the position of the icon as needed */
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.typoghraphy {
+    color: #FB5607;
+    font-family: Dr Sugiyama;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+
+.otrait {
+    color: #FFF;
+    font-family: Dr Sugiyama;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.7px;
+}
+
+.form-check-label {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.26px;
+}
+
+.Image_logo, .ind_content {
+    margin-bottom: 30px;
+}
+
+.login_form {
+    width: 540px;
+    height: 280px;
+}
+
+.sign_lg_in, .sign_lg_in:hover {
+    width: 541px;
+    height: 40px;
+    background: #FB5607;
+    border: none;
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.425px;
+}
+
+.frgt_password, a {
+    color: #FFF !important;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.65px;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+.register_btn, .forg_lg_sg {
+    display: flex;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.register_btn {
+    color: #FB5607;
+    font-size: 20px;
+    position: relative;
+    top: -6px;
+}
+
+.form-check-input {
+    border-radius: 0.25em;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+#loginPasswordToggleIcon {
+    color: #FB5607;
+}
+
+/* Small devices (phones) */
+@media (max-width: 767px) {
+    /* Define specific styles for small screens here */
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Define specific styles for medium screens here */
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Define specific styles for large screens here */
+}
+
+/* Extra Large devices (large desktops) */
+@media (min-width: 1200px) {
+    /* Define specific styles for extra large screens here */
+}
+
+
+
+
+/* forgot password */
+
+.frgt_passwrd,.register_login,.otp_verify {
+    background-image: url('../assets/images/register_backgroun.png');
+    background-size: 100%;
+    background-repeat: round;
+    background-attachment: fixed;
+    max-width: 100%;
+    max-height: 100%;
+    color: white;
+}
+
+
+.forget_contain {
+    max-width: 650px;
+    max-height: max-content;
+    background: rgba(117, 110, 110, 0.05);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    padding: 35px;
+    position: absolute;
+    left: 30%;
+    top: 15%;
+    font-size: 14px;
+}
+
+
+#resetPasswordBtn, .reset_pass {
+    margin: 20px;
+}
+
+.alert-success {
+    margin: 0px -4px -38px -4px;
+    padding: 2%;
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+}
+
+#resetPasswordBtn, #updatePasswordBtn {
+    width: 185px;
+    height: 48px;
+    background-color: #fb5607;
+    color: white;
+    font-size: 16px;
+    border: 1px solid transparent;
+}
+.icon_eye_frgtpasswrd {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    color: #fb5607;
+    transform: translateY(-50%);
+    cursor: pointer;
+}#emailHelp{color:#ffffffbd !important;}
+
+
+/* register page */
+
+
+.register_contain {
+    max-width: 650px;
+    height: 685px;    
+    background: rgba(117, 110, 110, 0.05);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    margin-top: 100px;
+    padding: 35px;
+    font-size: 14px;
+}
+
+.icon_eye_register {
+position: absolute;
+top: 50%;
+right: 10%;
+transform: translateY(-50%);
+cursor: pointer;
+color: #fb5607;
+z-index: 1;
+opacity: 0.5;
+}
+
+#registerRepeatPassword {
+padding-right: 30px; /* Add space on the right for the icon */
+}
+
+
+.text-primary {
+color:#fb5607 !important;
+display: inline-block;
+width: 8rem;
+height: 8rem;
+vertical-align: -0.125em;
+border: 0.25em solid currentColor;
+border-right-color: transparent;
+border-radius: 50%;
+-webkit-animation: .75s linear infinite spinner-border;
+animation: .75s linear infinite spinner-border;
+}
+
+/* CSS to blur the background */
+
+.message
+{
+background-color:green;
+color:White;
+font-size:20px;
+}.sign_lg_in_border
+{
+width: 185px;
+height: 48px;
+background-color:#fb5607;
+color:White;
+font-size:16px;
+border:1px solid transparent;
+}
+.register_btn, .forg_lg_sg {
+display: flex;
+height: 35px;
+justify-content: center;
+align-items: center;
+margin: 10px;
+}.register_btn{
+color:#fb5607;
+font-size:20px;
+position: relative;
+top: -6px;
+}.frgt_password,a{
+color: #FFF !important;
+font-family: Quicksand;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.65px;
+text-decoration:none;
+padding-top:15px;
+}
+
+.hidden
+{
+display:none;
+}
+    
+
+/* otp verify container */
+
+.otp_verify_container {
+    max-width: 650px;
+    max-height: max-content;
+    background: rgba(117, 110, 110, 0.05);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    padding: 35px;
+    position: absolute;
+    left: 30%;
+    top:15%;
+}
+   
+#resetPasswordBtn,.reset_pass {
+    margin: 20px;
+}
+.alert-success {
+    margin: 0px -4px -38px -4px;
+    padding: 2%;
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+}
+
+   

@@ -1,0 +1,205 @@
+
+
+/* -------------------  dashboard.css  -------------------- */
+
+p.current_time_date {
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+ 
+.dash_clk {
+    /* background-color: blue; */
+    margin: 6% 4%;
+}
+
+.dash_box_container {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    height: 250px;
+    background-color: white;
+    margin:110px 0px 0px 0px;
+}.work_report_assign{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    height: max-content;
+    background-color: white;
+    padding:20px 10px;
+    margin:50px 0px 50px 0px;
+}
+
+.clock_in {
+    padding: 10px 30px;
+    font-size: 20px !important;
+    font-family: system;
+}
+
+.col-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    width: 100%;
+}
+
+.right_box_clockin {
+    margin: 0% 0% 4% -12%;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+button:hover a{
+    color:#0e649b;
+}
+#tracking_report:hover a {
+    color:#0e649b;
+}
+.tracking_report_dash, .tracking_report_dash:hover {
+    font-family: cursive;
+    border: none;
+    font-size: 20px;
+    position: relative;
+    left: 0px;
+    color: #0e649b;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.b_dash, .b_dash:focus {
+    border: none;
+    outline:none;
+    width:25% !important;
+}
+
+
+/* Style for clock-out button */
+#clock-out {
+    width:40%;
+    margin-left:30%;
+    margin-top:3%;
+
+    background-color: red;
+    color: #fff;
+    border: 2px solid #0e649b;
+}
+button#clock-in {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+/* Hover effect for both buttons */
+#clock-in:hover,
+#clock-out:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+    .line-segment {
+        position: relative;
+        height: 2px; /* Adjust the thickness of the line */
+        background-color: #0e649b;
+        opacity: 0.4; /* Adjust the line color */
+    }
+    .line-segment:nth-child(1) {
+        top: 50%;
+        left: 62%;
+        transform: rotate(45deg);
+        width: 28.5%;
+    }.line-segment:nth-child(2) {
+top: 49%;
+left: 65%;
+transform: rotate(135deg);
+width: 28%;
+}
+
+    .line-segment:nth-child(3) {    
+        top: 47%;
+        left: 76%;
+        transform: rotate(45deg);
+        width: 28.5%;
+    }
+
+    .line-segment:nth-child(4) {
+        top: 53%;
+        left: 77%;
+        transform: rotate(135deg);
+        width: 25.5%;
+    }.hidden{
+        display:none;
+    }.task_content,.tsk_dash{font-family:system;font-size:px;color:black;text-decoration: none;padding:10px 5px;margin-left:28px;}
+    .tsk_dash{margin-left:2px !important;}
+   .first_hey {
+font-size: 18px;
+font-weight: 600;
+color: darkblue;
+text-decoration: underline;
+padding:10px 4px;
+width:25% !important;
+}.h3_heading-table {
+    color: #443535;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 18px 5px;
+}.prod_file, .qc_file {
+    border: 1px #0e649b40 solid;
+background-color: #fff;
+box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+height: 300px;
+width: 95%;
+padding: 13px 10px;
+margin: 20px 28px;
+}table.table_1-dashboard {
+margin:1px;
+overflow: scroll;
+}.qc-file-row {
+font-size: 15px;
+font-weight: 700;
+text-transform: uppercase;
+border: 1px solid;
+background: linear-gradient(180deg, #f8f9fa, #0e649b);
+}.tr_tbody_row
+{
+font-size: 15px;
+font-weight: 400;
+text-transform: uppercase;
+border: 1px solid;
+background: linear-gradient(180deg, #f8f9fa, #0e649b);
+}.prod_qc_td,.prod_qc_th{
+border: 1px solid #898484;
+width: 13%;
+height: max-content;
+text-align: center;
+}input.target-input,.completed-input,.pending-input,
+.target-input_qc,.completed-input_qc,.pending-input_qc {
+border: none;
+width: 75%;
+text-align: center;
+position: relative;
+justify-items: center;
+vertical-align: middle;
+}.btn_qa_dashboard {
+    font-size: 12px;
+    margin: 5px;
+    border-radius: 5px;
+    background: #0e649b;
+    color: #FFF;
+    font-size: 14px;
+    padding: 5px 9px;
+    /* margin-top: -9px; */
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}.table_scroll_dashb {
+height: 200px;
+width: fit-content;
+overflow: auto;
+}.head_position-fix
+{
+position: sticky;
+top: -2px;
+z-index: 3; }

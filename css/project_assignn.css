@@ -1,0 +1,117 @@
+
+input#searchBox {
+    border-width: revert;
+margin-top: 3%;
+font-weight: 500;
+margin-top: 3%;
+border-color: #fb5607;
+}
+button#toggle-filter {
+margin-top: 3%;
+border-width: revert;  
+border-color: #fb5607;
+margin-top: 3%;
+}
+form#filter-form {
+margin-left: 14%;
+margin-right: 27%;
+}
+
+th{
+color: white;
+background: linear-gradient(180deg, #fc7105, orange);
+border: 1px solid #fb5607;
+padding-left:5px;
+}
+
+
+thead{
+text-transform:uppercase;
+height: 40px;
+}
+.container2{
+margin-top:1%;
+margin-left:2%;
+}
+.tableclass_pro_report {
+padding:1%;
+margin-bottom: 2%;
+width: 97%;
+white-space: nowrap; /* Prevent text from wrapping */
+overflow-x: auto; /* Add horizontal scrollbar when content overflows */
+}
+.col {
+text-align: left;
+}
+.filter_table{
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+padding: 4%;
+width: 60%;
+}
+.downlaod_pro_report {
+
+margin-top: 10px;
+margin-bottom: 10px;
+}
+button.downlaod_pro_reportt {
+width: 5%;
+border-radius: 9px;
+color: white;
+background: #fb5607;
+border-color: #fb5607;
+margin-right: 4%;
+float: right;
+margin-bottom: 18px;
+font-weight:600;
+}
+i.fas.fa-filter {
+color: white;
+}
+button#toggle-filter:hover i.fas.fa-filter{
+color:white;
+}
+button#toggle-filter:hover{
+background-color:#fb5607;
+color:white;
+}
+.input-group.mb-3 {
+margin-top: 4%;
+margin-left: 7%;
+}
+button#downloadExcel{
+margin-top:32px;
+font-weight:600;
+color: white;
+background-color: #fb5607;
+border-color: #fb5607;
+}
+button#button-addon2{
+margin-top:32px;
+font-weight:600;
+color: white;
+background-color: #fb5607;
+border-color: #fb5607;
+}
+select{
+margin-top:4%;
+}
+
+.container2_table{
+    overflow-x: auto;
+
+    height:300px;
+}
+table{table-layout :fixed;margin-bottom:15px;}
+
+thead{
+    top:0;
+    position:sticky;
+
+}
+
+
+.container1.pro_report {
+    margin-top: 9% !important;
+}
+
+

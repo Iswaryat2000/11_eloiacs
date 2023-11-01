@@ -1,0 +1,155 @@
+body {
+    width: 99%;
+}
+.container_time_off {
+    margin-top: 10%;
+}
+.border {
+    border: 0px solid transparent;
+    color: #0e649b;
+    background-color: transparent;
+}
+.icon-class, .icon-class:focus {
+    border: none;
+    font-size: 20px;
+    width: 50px;
+    margin: 5px 27px 2px 12px;
+}
+.btn:focus {
+    background-color: initial;
+    box-shadow: none;
+    color: inherit;
+}
+.modal {
+display: none;
+position: fixed;
+/*z-index: 1;*/
+left: 0;
+top: 0;
+/* width: 100%; */
+height: 100%;
+background-color: rgba(0,0,0,0.7);
+}
+
+/* Style the modal content */
+.modal-content {
+background-color: #fefefe;
+margin: 15% auto;
+padding: 20px;
+border: 1px solid #888;
+width: 80%;
+max-width: 600px;
+overflow-y: auto;
+}
+
+/* Style the close button */
+.close {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+.close:hover,
+.close:focus {
+color: black;
+text-decoration: none;
+cursor: pointer;
+}
+
+
+
+#search {
+border: 2px #ed7805 solid;
+float: right;
+width: 30%;
+}
+.search_emp_row {
+margin-bottom: 2%;
+}
+
+
+
+table {
+width: 99%; /* Make the table fill its container */
+border-collapse: collapse;
+}
+
+thead {
+position: sticky;
+top: 0;
+background: linear-gradient(180deg, #f8f9fa, #0e649b);
+color: white;
+z-index:6;
+
+}
+
+thead th {
+
+text-transform: uppercase;
+height: 40px;
+ /* Ensure the header stays above the content 
+}
+
+
+tbody td {
+/* Add padding and adjust height as needed */
+padding: 8px;
+height: 40px; /* You can adjust this based on your design */
+/* Adjust other styles as needed */
+border-bottom: 1px solid #ddd;
+}
+
+
+.tables {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none; 
+overflow-y: scroll;
+overflow-y: scroll;
+height: 400px;
+}
+
+.tables::-webkit-scrollbar {
+display: none;
+}
+
+.tabless{
+padding-right: 2%;
+padding-left: 2%;
+width:100%;
+display:flex;
+flex-direction:column;
+}
+
+
+.table-Container {
+max-height: 350px;
+overflow-y: scroll;
+-ms-overflow-style: none; /* Hide scrollbar in IE and Edge */
+scrollbar-width: thin; /* Firefox */
+scrollbar-color: white; /* Firefox */
+}
+
+/* Set the track (background) color of the scrollbar */
+.table-Container::-webkit-scrollbar {
+display: none; /* Hide scrollbar in Webkit browsers (Chrome, Safari) */
+}
+
+input[type="submit"] {
+border:none;
+/* border: none; */
+background: no-repeat;
+border-radius:5px;
+text-decoration: underline;
+margin-bottom: 26%;
+}
+
+.col-1 {
+/* height: 200px; */
+border: 1px solid;
+border-color: #fff #fff #fff #0e649b;
+
+}
+th{
+text-align:center;
+}
+
